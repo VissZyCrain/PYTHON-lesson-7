@@ -12,4 +12,4 @@ def writing_scv (info):
 def writing_txt (info):
     file = 'phonebook.txt'
     with open(file, 'a', encoding='utf-8') as data:
-        data.write(f'Фамилия: {info[0]}\n Имя: {info[1]}\n Отчество: {info[2]}\n Номер телефона: {info[3]}\n Описание: {info[4]}\n\n')
+        data.write(f' Фамилия: {info[0]}\n Имя: {info[1]}\n Отчество: {info[2]}\n Номер телефона: {info[3]}\n Описание: {info[4]}\n\n')
