@@ -1,3 +1,8 @@
+import os
+os.system('cls')
+
+print('Задача № 1')
+
 import ui
 
 def button_click():
